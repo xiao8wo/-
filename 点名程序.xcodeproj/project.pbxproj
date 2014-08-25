@@ -19,6 +19,7 @@
 		185D35D519695C4C000F89C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185D35BD19695C4C000F89C2 /* UIKit.framework */; };
 		185D35DD19695C4C000F89C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185D35DB19695C4C000F89C2 /* InfoPlist.strings */; };
 		185D35DF19695C4C000F89C2 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D35DE19695C4C000F89C2 /* ____Tests.m */; };
+		185D35EA19695CAB000F89C2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D35E919695CAB000F89C2 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		185D35DA19695C4C000F89C2 /* 点名程序Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "点名程序Tests-Info.plist"; sourceTree = "<group>"; };
 		185D35DC19695C4C000F89C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		185D35DE19695C4C000F89C2 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		185D35E819695CAB000F89C2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		185D35E919695CAB000F89C2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				185D35C819695C4C000F89C2 /* AppDelegate.h */,
 				185D35C919695C4C000F89C2 /* AppDelegate.m */,
+				185D35E819695CAB000F89C2 /* RootViewController.h */,
+				185D35E919695CAB000F89C2 /* RootViewController.m */,
 				185D35CB19695C4C000F89C2 /* Images.xcassets */,
 				185D35C019695C4C000F89C2 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				185D35CA19695C4C000F89C2 /* AppDelegate.m in Sources */,
 				185D35C619695C4C000F89C2 /* main.m in Sources */,
+				185D35EA19695CAB000F89C2 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
